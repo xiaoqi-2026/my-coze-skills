@@ -1,0 +1,31 @@
+# 敏感信息 —— 永远不要提交
+SECRET.md
+*.key
+*.pem
+*.p12
+.env
+.env.*
+config.secret.*
+*_secret.*
+*_credentials.*
+
+# 客户与财务原始数据
+*.xlsx
+*.xls
+*.csv
+*.pdf
+!templates/*.md
+
+# 系统与缓存
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+_tmp/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
